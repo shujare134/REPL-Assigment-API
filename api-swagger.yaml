@@ -1,0 +1,20 @@
+---
+swagger: "2.0"
+info:
+  version: "2021-08-24T19:33:43Z"
+  title: "dev-four-four-five-calendar"
+host: "ugrvyf9755.execute-api.us-east-1.amazonaws.com"
+basePath: "/prod"
+schemes:
+- "https"
+paths:
+  /get-fourfourfivecalendar/{year}:
+    get:
+      responses: {}
+      security:
+      - api_key: []
+securityDefinitions:
+  api_key:
+    type: "apiKey"
+    name: "x-api-key"
+    in: "header"

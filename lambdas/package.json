@@ -1,0 +1,18 @@
+{
+  "name": "fourfourfivecalendaryear",
+  "version": "1.0.0",
+  "description": "fourfourfivecalendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --testSequencer='./tests/testSequencer.js' --reporters=default --reporters=jest-html-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@formulajs/formulajs": "^2.7.1",
+    "jest": "^27.0.6",
+    "jest-html-reporter": "^3.4.1",
+    "jest-html-reporters": "^2.1.6",
+    "xlsx-calc": "^0.6.9"
+  }
+}
